@@ -27,12 +27,20 @@ let needChangeNum = 0;
 let starSecond = null;
 let starTime = null;
 
-const network = {
+/*const network = {
     blockchain: 'eos',
     host: '180.76.108.100',
     port: 8000,
     protocol: 'http',
     chainId: '1c6ae7719a2a3b4ecb19584a30ff510ba1b6ded86e1fd8b8fc22f1179c622a32'
+}*/
+
+const network = {
+    blockchain: 'eos',
+    host: "eosmainnet.medishares.net",
+    port: 443,
+    protocol: 'https',
+    chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906'
 }
 
 document.addEventListener('scatterLoaded', async() => {   
