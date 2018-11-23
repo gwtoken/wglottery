@@ -1,0 +1,33 @@
+#historyPage_1,#historyPage_2,#subordinate,#invitePage_3,#howShow,#invitePage_3{
+	overflow: auto
+}
+
+#historyPage_1::-webkit-scrollbar
+{
+	display:none
+}
+
+#historyPage_2::-webkit-scrollbar
+{
+	display:none
+}
+
+#subordinate::-webkit-scrollbar
+{
+	display:none
+}
+
+#invitePage_3::-webkit-scrollbar
+{
+	display:none
+}
+
+#howShow::-webkit-scrollbar
+{
+	display:none
+}
+
+#invitePage_3::-webkit-scrollbar
+{
+	display:none
+}
